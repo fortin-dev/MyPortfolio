@@ -11,7 +11,7 @@ const navLinks = [
 export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileOpen] = useState(false);
   return (
-    <header className="fixed top-0 left-0 bg-transparent py-5 right-0">
+    <header className="fixed top-0 left-0 bg-transparent py-5 right-0 z-50">
       <nav className=" container mx-auto px-6 flex justify-between">
         <a
           href="#"
