@@ -11,20 +11,14 @@ import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const skills = [
   "React",
-  "Next.js",
+  "HTML",
   "TypeScript",
   "Node.js",
-  "GraphQL",
-  "PostgreSQL",
-  "MongoDB",
-  "Redis",
-  "Docker",
-  "AWS",
+  "CSS",
   "Vercel",
   "Tailwind CSS",
-  "Prisma",
-  "Jest",
-  "Cypress",
+  "NPM",
+  "Vite",
   "Figma",
   "Git",
   "GitHub Actions",
@@ -69,25 +63,25 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Software Engineer • React Specialist
+                Frontend Developer
               </span>
             </div>
 
             {/* Headline */}
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
-                Crafting <span className="text-primary glow-text">digital</span>
-                <br />
-                experiences with
+                Learning. <br />
+                <span className="text-primary glow-text">Building.</span>
                 <br />
                 <span className="font-serif italic font-normal text-white">
-                  precision.
+                  Improving.
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Pedro Machado — a software engineer specializing in
-                React, Next.js, and TypeScript. I build scalable, performant web
-                applications that users love.
+                Hi, I'm Abhinav Yadav — I’m a frontend developer passionate
+                about web development and UI design. I enjoy building responsive
+                websites and continuously learning new technologies to improve
+                my skills.
               </p>
             </div>
 
@@ -106,7 +100,7 @@ export const Hero = () => {
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
-                { icon: Github, href: "#" },
+                { icon: Github, href: "https://github.com/fortin-dev" },
                 { icon: Linkedin, href: "#" },
                 { icon: Twitter, href: "#" },
               ].map((social, idx) => (
@@ -132,7 +126,7 @@ export const Hero = () => {
               />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="/profile-photo.jpg"
+                  src="/profile-photo.png"
                   alt="Pedro Machado"
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />
@@ -147,12 +141,12 @@ export const Hero = () => {
                   </div>
                 </div>
                 {/* Stats Badge */}
-                <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
+                {/* <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
                   <div className="text-2xl font-bold text-primary">5+</div>
                   <div className="text-xs text-muted-foreground">
                     Years Exp.
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
