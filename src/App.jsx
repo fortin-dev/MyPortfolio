@@ -1,7 +1,7 @@
 import { Navbar } from "@/layout/Navbar";
 import { Hero } from "@/sections/Hero";
 import { About } from "@/sections/About";
-import { Project } from "@/sections/Project";
+import { Projects } from "@/sections/Project";
 import { Experience } from "@/sections/Experience";
 import { Testimonials } from "@/sections/Testimonials";
 import { Contact } from "@/sections/Contact";
@@ -12,7 +12,7 @@ function App() {
       <main>
         <Hero />
         <About />
-        <Project />
+        <Projects />
         <Experience />
         <Testimonials />
         <Contact />
