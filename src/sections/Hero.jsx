@@ -191,6 +191,9 @@ export const Hero = () => {
           <ChevronDown className="w-6 h-6 animate-bounce" />
         </a>
       </div>
+      {/* fjasdl;kfjsaldfjsldkfjas;ldkfjasl;dkfjasdlkfjalsdkjfalsdkjfsldkfjsa
+      sadlkfajsd;lfjasdlfkj
+      sdflas;ldflaskdjf */}
     </section>
   );
 };
