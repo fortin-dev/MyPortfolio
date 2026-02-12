@@ -46,6 +46,17 @@ export const Skills = () => {
         "Software Engineering Basics",
       ],
     },
+    {
+      title: "Computer Science Fundamentals",
+      skills: [
+        "Data Structures",
+        "Algorithms",
+        "OOP Concepts",
+        "DBMS",
+        "Operating Systems",
+        "Software Engineering Basics",
+      ],
+    },
   ];
 
   return (
@@ -62,7 +73,7 @@ export const Skills = () => {
           {skillsData.map((category, index) => (
             <div
               key={index}
-              className=" p-6 rounded-2xl shadow-md hover:shadow-xl transition  glass-strong"
+              className=" p-6 rounded-2xl shadow-md hover:shadow-xl transition glass-strong glow-border"
             >
               <h3 className="text-xl font-semibold mb-4 text-center text-white hover:text-primary transition">
                 {category.title}
@@ -72,7 +83,7 @@ export const Skills = () => {
                 {category.skills.map((skill, i) => (
                   <span
                     key={i}
-                    className="px-3 py-1 text-sm text-muted-foreground rounded-full transition border border-white/10 text-center "
+                    className="px-3 py-1 text-sm text-muted-foreground rounded-full transition border border-white/10 text-center  "
                   >
                     {skill}
                   </span>
