@@ -46,21 +46,10 @@ export const Skills = () => {
         "Software Engineering Basics",
       ],
     },
-    {
-      title: "Computer Science Fundamentals",
-      skills: [
-        "Data Structures",
-        "Algorithms",
-        "OOP Concepts",
-        "DBMS",
-        "Operating Systems",
-        "Software Engineering Basics",
-      ],
-    },
   ];
 
   return (
-    <section id="skills" className="py-16 bg-background">
+    <section id="skills" className="py-16 bg-background scroll-mt-24">
       <div className="max-w-6xl mx-auto px-6">
         {/* Heading */}
         <h2 className="text-3xl md:text-4xl font-bold italic text-center mb-12 text-primary-foreground">
@@ -69,7 +58,7 @@ export const Skills = () => {
         </h2>
 
         {/* Skills Grid */}
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 ">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 items-stretch">
           {skillsData.map((category, index) => (
             <div
               key={index}
