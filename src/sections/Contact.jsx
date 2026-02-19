@@ -14,20 +14,13 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "pedro@example.com",
-    href: "mailto:pedro@example.com",
-  },
-  {
-    icon: Phone,
-    label: "Phone",
-    value: "+1 (555) 123-4567",
-    href: "tel:+15551234567",
+    value: "fotineno1@gmail.com",
+    href: "mailto:fotineno1@gmail.com",
   },
   {
     icon: MapPin,
     label: "Location",
-    value: "San Francisco, CA",
-    href: "#",
+    value: "Lucknow, Uttar Pradesh",
   },
 ];
 
