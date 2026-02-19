@@ -40,20 +40,20 @@ export const About = () => {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-              Building the future,
+              From Code to Creativity —
               <span className="font-serif italic font-normal text-white">
                 {" "}
-                one component at a time.
+                I Build the Web
               </span>
             </h2>
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
+                I am a passionate web developer with a strong background in
+                HTML, CSS, JavaScript, and React. I enjoy building responsive
+                and user-friendly web applications that tackle real-world
+                issues. As a newcomer, I continually learn new technologies and
+                improve my skills through hands-on projects.
               </p>
               <p>
                 I specialize in React, Next.js, and TypeScript, building
@@ -62,17 +62,17 @@ export const About = () => {
                 keen eye for design and user experience.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+                I am particularly interested in creating clean UI, writing
+                efficient code, and building scalable web applications.
+                Currently, I am exploring advanced frontend development and
+                improving my problem-solving skills.
               </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My mission is to create digital experiences that are not just
-                functional, but truly delightful — products that users love to
-                use and developers love to maintain."
+                "My goal is to start my career as a Frontend / Web Developer and
+                help with innovative and impactful projects."
               </p>
             </div>
           </div>

@@ -4,6 +4,7 @@ import { About } from "@/sections/About";
 import { Skills } from "@/sections/Skills";
 import { Projects } from "@/sections/Project";
 import { Contact } from "@/sections/Contact";
+import { Footer } from "./layout/Footer";
 function App() {
   return (
     <div className="min-h-screen overflow-x-hidden">
@@ -15,6 +16,7 @@ function App() {
         <Projects />
         <Contact />
       </main>
+      <Footer />
     </div>
   );
 }
