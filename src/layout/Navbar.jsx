@@ -5,6 +5,10 @@ const navLinks = [
   { href: "#about", label: "About" },
   { href: "#skills", label: "Skills" },
   { href: "#projects", label: "Projects" },
+  {
+    href: "https://drive.google.com/file/d/1pxeLxuOI93uWFHPUwnFQ2kUV1VHhum8O/view?usp=sharing",
+    label: "Resume",
+  },
 ];
 
 export const Navbar = () => {

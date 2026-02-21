@@ -88,13 +88,19 @@ export const Hero = () => {
 
             {/* CTAs */}
             <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
-              <Button size="lg">
-                Contact Me <ArrowRight className="w-5 h-5" />
-              </Button>
               <AnimatedBorderButton>
-                <Download className="w-5 h-5" />
-                Download CV
+                <a href="#contact">Contact Me</a>
+                <ArrowRight className="w-5 h-5" />
               </AnimatedBorderButton>
+              {/* <Button size="lg" >
+                Contact Me <ArrowRight className="w-5 h-5" />
+              </Button> */}
+              {/* <AnimatedBorderButton>
+                <Download className="w-5 h-5" />
+                <a href="https://drive.google.com/file/d/1pxeLxuOI93uWFHPUwnFQ2kUV1VHhum8O/view?usp=sharing">
+                  Resume
+                </a>
+              </AnimatedBorderButton> */}
             </div>
 
             {/* Social Links */}
@@ -127,7 +133,7 @@ export const Hero = () => {
               />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="/profile-photo.png"
+                  src="/profile-photo.jpeg"
                   alt="Pedro Machado"
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />
@@ -192,9 +198,6 @@ export const Hero = () => {
           <ChevronDown className="w-6 h-6 animate-bounce" />
         </a>
       </div>
-      {/* fjasdl;kfjsaldfjsldkfjas;ldkfjasl;dkfjasdlkfjalsdkjfalsdkjfsldkfjsa
-      sadlkfajsd;lfjasdlfkj
-      sdflas;ldflaskdjf */}
     </section>
   );
 };
