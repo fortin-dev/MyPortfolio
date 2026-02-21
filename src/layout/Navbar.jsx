@@ -5,10 +5,6 @@ const navLinks = [
   { href: "#about", label: "About" },
   { href: "#skills", label: "Skills" },
   { href: "#projects", label: "Projects" },
-  {
-    href: "https://drive.google.com/file/d/1pxeLxuOI93uWFHPUwnFQ2kUV1VHhum8O/view?usp=sharing",
-    label: "Resume",
-  },
 ];
 
 export const Navbar = () => {
@@ -48,6 +44,14 @@ export const Navbar = () => {
                 {link.label}
               </a>
             ))}
+            <a
+              href="https://drive.google.com/file/d/1pxeLxuOI93uWFHPUwnFQ2kUV1VHhum8O/view?usp=sharing"
+              className="px-4 py-2 text-sm text-muted-foreground hover:text-foreground rounded-full hover:bg-surface"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
           </div>
         </div>
         {/* CTA button  */}
