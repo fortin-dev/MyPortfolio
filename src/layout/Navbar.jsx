@@ -84,6 +84,14 @@ export const Navbar = () => {
                 {link.label}
               </a>
             ))}
+            <a
+              href="https://drive.google.com/file/d/1pxeLxuOI93uWFHPUwnFQ2kUV1VHhum8O/view?usp=sharing"
+              className="text-lg text-muted-foreground hover:text-foreground py-2"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
 
             <Button onClick={() => setIsMobileOpen(false)}>
               <a href="#contact">Contact Me</a>
